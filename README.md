@@ -1,2 +1,1 @@
-# lazyux.net
 Personal website
