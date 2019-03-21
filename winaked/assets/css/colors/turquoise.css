@@ -1,0 +1,148 @@
+::-moz-selection { color: #fff; background-color: #18c39d; }
+::-webkit-selection { color: #fff; background-color: #18c39d; }
+::selection { color: #fff; background-color: #18c39d; }
+
+.bg-color,
+.sliding-link:after,
+.sliding-link:hover:before,
+.dropcap.style-2,
+.highlight,
+.nav-cart-remove:hover,
+.cart-inner a > span,
+.navbar-toggle:focus .icon-bar, .navbar-toggle:hover .icon-bar,
+#back-to-top:hover,
+.call-to-action.style-3,
+.device-tabs .vertical .nav.nav-tabs li.active > a,
+.services-tabs .nav.nav-tabs > li.active:after,
+.pagination a:hover,
+.tags a:hover,
+.owl-page.active span,
+.flickity-page-dots .dot.is-selected,
+.swiper-pagination-bullet-active,
+.flickity-slider-wrap.dark-dots .flickity-page-dots .dot.is-selected,
+.owl-dark-dots .owl-page.active span,
+.progress-bar,
+.meter.gradient .progress-bar,
+.pricing-table.best:before,
+.btn.btn-transparent:hover,
+.btn.btn-stroke:hover,
+.btn.btn-light:hover,
+.btn.btn-white:hover,
+.btn.btn-dark:hover,
+.btn.btn-color {
+  background-color: #18c39d;
+}
+
+.social-icons:not(.colored) a:hover {
+  background-color: #18c39d !important;
+}
+
+a,
+a:focus,
+.loader,
+.dropcap.style-1,
+.bullets li:before,
+.arrows i,
+.checks i,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:focus,
+.navbar-nav > .open > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.megamenu .menu-list > li > a:hover,
+.megamenu-wide .menu-list > li > a:hover,
+.mobile-links li > a:hover,
+.nav-cart-title > a:hover,
+.nav-item-submenu li a:hover,
+.device-tabs .vertical .nav.nav-tabs li a:hover,
+.services-tabs .nav.nav-tabs > li > a:hover i,
+.services-tabs .nav.nav-tabs > li.active > a i,
+.contact-item a:hover,
+.service-item-box .contact-item a:hover,
+.entry-meta li a:hover,
+.entry-title a:hover,
+.entry .blockquote-style-1 a:hover,
+.pagination .current,
+.widget.categories ul li a:hover,
+.entry-list ul > li a:hover,
+.work-description h3 a:hover,
+.work-description > span > a:hover,
+.project-nav li a:hover,
+.service-item-box i,
+.service-item-box.style-1 .animated-icon,
+.service-item-box.style-3 i,
+.accordion .panel-default > .panel-heading > a.minus,
+.accordion .panel-default > .panel-heading > a:hover,
+.toggle > .acc-panel > a:hover,
+.accordion .panel-default > .panel-heading:hover a,
+.toggle > .acc-panel > a.active,
+.nav.nav-tabs > li.active > a,
+.nav.nav-tabs > li.active > a:hover,
+.nav.nav-tabs > li.active > a:focus,
+.nav.nav-tabs > li > a,
+.nav.nav-tabs > li > a:hover,
+.nav.nav-tabs > li > a:focus,
+.statistic.with-icon i {
+  color: #18c39d;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .active > a:hover,
+header.transparent .navigation.scrolling .navbar-nav > li > a:hover,
+header.transparent .navigation.scrolling .navbar-nav > .active > a,
+header.transparent .navigation.scrolling .navbar-nav > .active > a:focus,
+header.transparent .navigation.scrolling .navbar-nav > .active > a:hover {
+  color: #18c39d !important;
+}
+
+.bottom-line:after,
+.blockquote-style-2,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus,
+input[type="email"].newsletter-input:focus {
+  border-color: #18c39d;
+}
+
+.dropdown-menu,
+.nav-cart-container {
+  border-top-color: #18c39d;
+}
+
+.tabs-bb .nav.nav-tabs > li.active > a {
+  border-bottom-color: #18c39d;
+}
+
+.meter.gradient .progress-bar {
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #18c39d 0%, #8455de 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #18c39d), color-stop(100%, #8455de));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #18c39d 0%, #8455de 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #18c39d 0%, #8455de 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #18c39d 0%, #8455de 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #18c39d 0%, #8455de 100%);
+}
+
+.btn.btn-glow:hover {
+	-webkit-box-shadow: 1px 5px 20px 2px rgba(24,195,157, 0.4), 1px 10px 50px 10px rgba(24,195,157, 0.2);
+	-moz-box-shadow: 1px 5px 20px 2px rgba(24,195,157, 0.4), 1px 10px 50px 10px rgba(24,195,157, 0.2);
+	-ms-box-shadow: 1px 5px 20px 2px rgba(24,195,157, 0.4), 1px 10px 50px 10px rgba(24,195,157, 0.2);
+	box-shadow: 1px 5px 20px 2px rgba(24,195,157, 0.4), 1px 10px 50px 10px rgba(24,195,157, 0.2);
+}
