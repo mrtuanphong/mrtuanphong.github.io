@@ -1,133 +1,132 @@
 @media (max-width: 1399px) {
+  /* line 5, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .services-text {
-    padding-top: 20px !important;
-  }
-}
+    padding-top: 20px !important; } }
 
 @media (max-width: 1199px) {
+  /* line 13, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .container-fluid .footer-widgets .widget {
-    padding: 0 15px;
-  }
+    padding: 0 15px; }
+  /* line 16, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .container-fluid .footer-widgets .widget:before {
-    display: none;
-  }
+    display: none; }
+  /* line 20, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .masonry-grid .work-item.quarter {
-    width: 50%;
-  }
+    width: 50%; }
+  /* line 24, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .works-grid.grid-5-col .work-item {
-    width: 25%;
-  }
-}
+    width: 25%; } }
 
 @media (max-width: 991px) {
+  /* line 33, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   h1 {
-    font-size: 32px;
-  }
+    font-size: 32px; }
+  /* line 34, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   h2 {
-    font-size: 28px;
-  }
+    font-size: 28px; }
+  /* line 35, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   h3 {
-    font-size: 26px;
-  }
+    font-size: 26px; }
+  /* line 36, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   h4 {
-    font-size: 22px;
-  }
+    font-size: 22px; }
+  /* line 38, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .heading.large {
-    font-size: 30px;
-  }
+    font-size: 30px; }
+  /* line 42, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .section-wrap,
   .section-wrap-lg,
   .section-wrap-xlg {
     padding: 70px 0;
     background-attachment: scroll !important;
-    background-position: 50% 50% !important;
-  }
+    background-position: 50% 50% !important; }
+  /* line 50, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .container-fluid.semi-fluid {
-    padding: 0 30px;
-  }
+    padding: 0 30px; }
+  /* line 54, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .navbar {
-    min-height: 60px;
-  }
+    min-height: 60px; }
+  /* line 58, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .navbar-header {
     height: 60px;
     width: 100%;
-    padding-right: 0;
-  }
+    padding-right: 0; }
+  /* line 64, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .navbar-collapse {
-    text-align: left;
-  }
+    text-align: left; }
+  /* line 68, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .logo-container {
     position: absolute;
-    top: 0;
-  }
+    top: 0; }
+  /* line 73, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .logo-wrap {
-    width: auto;
-  }
-  .logo-wrap > a {
-    height: 60px;
-  }
+    width: auto; }
+    /* line 76, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
+    .logo-wrap > a {
+      height: 60px; }
+  /* line 81, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   header.transparent .logo-dark {
-    display: inline-block;
-  }
+    display: inline-block; }
+  /* line 85, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   header.transparent .logo {
-    display: none;
-  }
+    display: none; }
+  /* line 89, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .nav > li > a {
     padding: 15px 0 15px 15px;
     border-bottom: 1px solid #e8ebee;
-    line-height: 20px;
-  }
+    line-height: 20px; }
+  /* line 95, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .navbar-nav {
-    display: block;
-  }
+    display: block; }
+  /* line 99, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   header.transparent .navbar-nav > li > a {
-    color: #323740;
-  }
+    color: #323740; }
+  /* line 103, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   header.transparent .navbar-nav > .active > a,
   header.transparent .navbar-nav > .active > a:focus,
   header.transparent .navbar-nav > .active > a:hover,
   header.transparent .navbar-nav > li > a:hover,
   header.transparent .navbar-nav > li > a:focus {
-    color: #2a83e8;
-  }
+    color: #0061d5; }
+  /* line 111, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .navbar-nav .open .dropdown-menu > li > a,
   .megamenu-item h6 {
     padding: 15px 0 15px 20px;
     border-bottom: 1px solid #e8ebee;
-    margin-bottom: 0;
-  }
+    margin-bottom: 0; }
+  /* line 118, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .navbar-nav .open .dropdown-submenu .dropdown-menu > li > a {
-    padding: 15px 0 15px 30px;
-  }
+    padding: 15px 0 15px 30px; }
+  /* line 122, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .navbar-nav .open .dropdown-submenu .dropdown-menu > li > ul > li > a {
-    padding: 15px 0 15px 45px;
-  }
+    padding: 15px 0 15px 45px; }
+  /* line 126, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .nav-wrap {
     padding-left: 0;
     padding-right: 0;
     width: 100% !important;
-    border-top: 1px solid #e8ebee;
-  }
+    border-top: 1px solid #e8ebee; }
+  /* line 134, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .dropdown-submenu > a:after {
-    display: none;
-  }
+    display: none; }
+  /* line 138, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .navbar-nav .open .dropdown-menu {
-    width: auto !important;
-  }
+    width: auto !important; }
+  /* line 142, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .dropdown-menu .megamenu-wrap ul > li > a:hover {
-    padding-left: 20px;
-  }
+    padding-left: 20px; }
+  /* line 146, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .dropdown-menu,
   .megamenu-item.no-headings {
-    padding: 0;
-  }
+    padding: 0; }
+  /* line 151, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .dropdown-menu.megamenu {
-    padding: 0 15px;
-  }
+    padding: 0 15px; }
+  /* line 155, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .megamenu-item {
     border-right: none;
-    padding: 0;
-  }
+    padding: 0; }
+  /* line 160, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .dropdown-menu .megamenu-wrap ul > li > a {
     display: block;
     padding: 15px 0 15px 20px;
@@ -136,19 +135,19 @@
     font-weight: 400;
     line-height: 1.42857143;
     color: #7c8592;
-    white-space: nowrap;
-  }
+    white-space: nowrap; }
+  /* line 171, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .megamenu-wrap .menu-list > li:last-child > a {
-    border-bottom: 1px solid #e8ebee;
-  }
+    border-bottom: 1px solid #e8ebee; }
+  /* line 175, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .mobile-search .form-control {
     height: 51px;
     border-bottom: 1px solid #e8ebee;
     border-left: none;
     border-top: none;
     border-right: none;
-    margin-bottom: 0;
-  }
+    margin-bottom: 0; }
+  /* line 184, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   #mobile-search .search-button {
     position: absolute;
     right: 0;
@@ -157,207 +156,200 @@
     height: 51px;
     border: 0;
     cursor: pointer;
-    background-color: transparent;
-  }
+    background-color: transparent; }
+  /* line 195, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .nav-right {
     position: absolute;
     top: 0;
     right: 40px;
     padding-right: 0;
-    color: #323740 !important;
-  }
-  .nav-right li {
-    height: auto;
-  }
+    color: #323740 !important; }
+    /* line 202, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
+    .nav-right li {
+      height: auto; }
+  /* line 209, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .nav-type-2 .nav-wrap {
-    width: 100%;
-  }
+    width: 100%; }
+  /* line 213, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .nav-type-2 .navigation {
-    background-color: #fff;
-  }
+    background-color: #fff; }
+  /* line 218, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .cart-inner {
-    height: 60px;
-  }
+    height: 60px; }
+  /* line 222, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .nav-cart .nav-cart-container {
-    display: none;
-  }
+    display: none; }
+  /* line 226, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   #masonry-grid .work-item.quarter {
-    width: 50%;
-  }
+    width: 50%; }
+  /* line 230, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .call-to-action h2 {
-    font-size: 36px;
-  }
+    font-size: 36px; }
+  /* line 234, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .footer-widgets .row > div {
-    margin-bottom: 40px;
-  }
+    margin-bottom: 40px; }
+  /* line 238, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .page-title .container {
-    height: 300px;
-  }
+    height: 300px; }
+  /* line 242, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .title-text h1 {
     font-size: 34px;
     margin-top: 0;
-    line-height: 1.2;
-  }
+    line-height: 1.2; }
+  /* line 248, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .sidebar:not(.left-sidebar) {
-    padding-left: 15px;
-  }
+    padding-left: 15px; }
+  /* line 252, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .works-grid.grid-5-col .work-item,
   .works-grid.grid-4-col .work-item {
-    width: 33.3333%;
-  }
+    width: 33.3333%; }
+  /* line 257, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .project-description {
     padding-left: 15px;
-    margin-top: 30px;
-  }
+    margin-top: 30px; }
+  /* line 262, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .img-box-holder,
   .img-box {
-    position: relative;
-  }
+    position: relative; }
+  /* line 267, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .text-box,
   .text-box.style-2 {
-    padding: 80px 0;
-  }
+    padding: 80px 0; }
+  /* line 272, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .service-item-box.style-1 {
     border-right: none;
-    padding: 0 15px;
-  }
+    padding: 0 15px; }
+  /* line 277, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .device-tabs .vertical .nav.nav-tabs {
-    margin-top: 75px;
-  }
+    margin-top: 75px; }
+  /* line 281, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .text-box.contact-info {
-    padding: 80px 15px;
-  }
+    padding: 80px 15px; }
+  /* line 285, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .gmap {
-    height: 400px;
-  }
+    height: 400px; }
+  /* line 289, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .grid-1-col .work-description {
-    padding: 60px 50px 80px 50px;
-  }
+    padding: 60px 50px 80px 50px; }
+  /* line 293, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .post-content .masonry-item.quarter {
-    width: 50%;
-  }
-}
+    width: 50%; } }
 
 @media (max-width: 767px) {
+  /* line 301, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .container-fluid.semi-fluid {
-    padding: 0 15px;
-  }
+    padding: 0 15px; }
+  /* line 305, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .pricing-tables .row > div[class^="col"] {
-    padding: 0 15px !important;
-  }
+    padding: 0 15px !important; }
+  /* line 309, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .call-to-action.style-2 h2 {
     margin-bottom: 20px;
-    margin-right: 0;
-  }
+    margin-right: 0; }
+  /* line 314, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .page-title.style-2 .title-text h1 {
     text-align: center;
     font-size: 24px;
-    line-height: 1.3;
-  }
+    line-height: 1.3; }
+  /* line 320, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .page-title.style-2 .breadcrumb {
     position: relative;
     text-align: center;
-    margin-top: 7px;
-  }
+    margin-top: 7px; }
+  /* line 326, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .works-grid.grid-5-col .work-item,
   .works-grid.grid-4-col .work-item {
-    width: 50%;
-  }
+    width: 50%; }
+  /* line 331, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   #masonry-grid .work-item.quarter,
   #masonry-grid .work-item {
-    width: 100%;
-  }
+    width: 100%; }
+  /* line 336, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .parallax-contact .gmap {
-    height: 400px;
-  }
+    height: 400px; }
+  /* line 340, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .services-tabs .service-item-box.style-1 i {
-    font-size: 50px;
-  }
+    font-size: 50px; }
+  /* line 344, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .services-tabs .service-item-box.style-1 {
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
+  /* line 348, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .services-tabs .nav.nav-tabs > li.active:after,
   .services-tabs:after {
-    display: none;
-  }
+    display: none; }
+  /* line 353, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .services-content {
-    padding-top: 30px !important;
-  }
+    padding-top: 30px !important; }
+  /* line 357, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .services-tabs .nav.nav-tabs > li > a {
-    padding: 0;
-  }
+    padding: 0; }
+  /* line 361, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .parallax-contact .text-box {
-    padding: 60px 30px;
-  }
+    padding: 60px 30px; }
+  /* line 365, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .work-item .bg-img-holder,
   .work-item .bg-img-holder .bg-img {
-    position: relative;
-  }
+    position: relative; }
+  /* line 370, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .work-item .bg-img-holder img {
-    display: block;
-  }
+    display: block; }
+  /* line 374, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .work-item .bg-img-holder,
   .grid-1-col .work-description {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 640px) {
+  /* line 383, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .col-xxs-12 {
-    width: 100%;
-  }
+    width: 100%; }
+  /* line 389, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .device-tabs .tabs-img-wrap {
-    display: none;
-  }
+    display: none; }
+  /* line 393, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .device-tabs-wrap {
-    width: 100%;
-  }
+    width: 100%; }
+  /* line 397, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .device-tabs .vertical .nav.nav-tabs {
     margin-top: 0;
     margin-left: 0;
     max-width: 350px;
-    width: auto;
-  }
+    width: auto; }
+  /* line 404, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .device-tabs .vertical .nav.nav-tabs li a,
   .device-tabs .vertical .nav.nav-tabs li.active > a {
-    padding: 13px 20px 12px;
-  }
+    padding: 13px 20px 12px; }
+  /* line 409, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .device-tabs .vertical .nav.nav-tabs li.active > a {
-    -webkit-border-radius: 70px;
-    border-radius: 70px;
-  }
+    border-radius: 70px; }
+  /* line 414, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .portfolio-filter a {
-    margin: 0 10px;
-  }
+    margin: 0 10px; }
+  /* line 418, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .masonry-grid .work-item,
   .masonry-grid .work-item.quarter {
-    width: 100%;
-  }
+    width: 100%; }
+  /* line 423, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   #offset-slider .gallery-cell {
-    width: 90%;
-  }
+    width: 90%; }
+  /* line 427, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .services-tabs .service-item-box h3 {
-    font-size: 14px;
-  }
+    font-size: 14px; }
+  /* line 431, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .post-content .masonry-item,
   .post-content .masonry-item.quarter {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 540px) {
+  /* line 439, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .table-wrap {
-    overflow-x: scroll;
-  }
+    overflow-x: scroll; }
+  /* line 443, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .works-grid .work-item {
-    width: 100% !important;
-  }
-}
+    width: 100% !important; } }
 
 @media (max-width: 480px) {
+  /* line 451, /Users/peterdo/dev/winaked-corporate-website/src/_scss/responsive.scss */
   .page-404 h1 {
-    font-size: 100px;
-  }
-}
+    font-size: 100px; } }
 
-/*# sourceMappingURL=responsive.css.map */
+/*# sourceMappingURL=../../sass */
