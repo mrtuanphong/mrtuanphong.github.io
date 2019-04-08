@@ -230,6 +230,9 @@
 	
 }
 @media (max-width:575px){
+	.navbar-brand img {
+		height: 40px;
+	}
 	.top_menu {
 		display: none;
 	}
