@@ -1,7 +1,10 @@
 ;(function($){
     "use strict"
 	
-	
+    // Tooltip:
+    $('[data-toggle="tooltip"]').tooltip(); 
+
+    
 	var nav_offset_top = $('header').height() + 50; 
     /*-------------------------------------------------------------------------------
 	  Navbar 
