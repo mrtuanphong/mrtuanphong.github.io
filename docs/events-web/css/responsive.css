@@ -182,6 +182,13 @@
 	}
 }
 @media (max-width:767px){
+	.navbar-brand .brand-logo {
+		display: none;
+	}
+	.navbar-brand .brand-logo-mobile {
+		display: inline-block;
+		height: 40px;
+	}
 	.home_banner_area {
 		min-height: 500px;
 	}
@@ -230,9 +237,7 @@
 	
 }
 @media (max-width:575px){
-	.navbar-brand img {
-		height: 40px;
-	}
+	
 	.top_menu {
 		display: none;
 	}
