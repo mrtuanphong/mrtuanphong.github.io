@@ -329,6 +329,13 @@ button:focus {
   font-size: 12px;
 }
 
+.navbar-brand .brand-logo {
+  display: inline-block;
+}
+.navbar-brand .brand-logo-mobile {
+  display: none;
+}
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Home Banner Area css
