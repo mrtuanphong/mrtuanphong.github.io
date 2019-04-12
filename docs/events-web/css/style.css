@@ -342,8 +342,8 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  height: calc(90vh);
-  min-height: 650px;
+  height: calc(46vw);
+  /*min-height: 480px;*/
   display: flex;
   background: url(../img/home-banner.jpg) no-repeat scroll center center;
   background-size: cover;
@@ -3478,6 +3478,7 @@ h6 {
 .home_register_area {
   background: url('../img/home-banner-2.jpg') center center;
   background-size: cover;
+  min-height: calc(46vw);
 }
 
 /* End Event Time Area css
@@ -3602,7 +3603,7 @@ h6 {
 }
 
 .team_inner {
-  margin-bottom: -50px;
+  /*margin-bottom: -50px;*/
 }
 
 .team_item {
