@@ -104,8 +104,8 @@ button:focus {
   line-height: 26px;
   color: #777777;
   margin-bottom: 0px;
-  max-width: 570px;
-  font-weight: 300;
+  /*max-width: 570px;
+  font-weight: 300;*/
   margin: auto;
 }
 
@@ -371,7 +371,8 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .banner_content h2 {
-  margin-top: 0px;
+  max-width: 680px;
+    margin: 0 auto;
   font-size: 48px;
   font-weight: bold;
   font-family: "Heebo", sans-serif;
@@ -3561,6 +3562,36 @@ h6 {
 
 /* End Event Schedule Area css
 ============================================================================================ */
+
+
+.q_and_a_area {
+  background: #f9f9ff;
+}
+.q_and_a_area ul {
+  margin-bottom: 32px;
+}
+.q_and_a_area li {
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0, 0.05);
+  padding: 24px;
+}
+.q_and_a_question_content,
+.q_and_a_answer_content {
+  
+}
+.q_and_a_question_content {
+  color: #666;
+  font-style: italic;
+}
+.q_and_a_answer_content {
+  border-left: 2px solid #28a745;
+  padding-left: 24px;
+}
+.q_and_a_answer h5{
+  color: #28a745;
+  text-transform: uppercase;
+}
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /*  Area css
