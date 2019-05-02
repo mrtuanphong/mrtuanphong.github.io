@@ -283,10 +283,40 @@
 				</div>
 				<div class="row">
 					<div class="col-md-10 offset-md-1">
-						
 						<div class="card q_and_a_ask_form">
+							<div class="card-header">
+								Đặt câu hỏi
+							</div>
 							<div class="card-body">
-								<div style="max-width: 720px; margin: 16px auto 0;">
+								<!-- Phone confirmation: -->
+								<div id="ask_form_user_confirmation">
+									<div class="alert alert-info" role="alert">
+										Để đặt câu hỏi, bạn cần xác nhận số điện thoại đã đăng ký thành viên trước đó. Nếu chưa đăng ký thành viên, vui lòng đăng ký <a href="#register" class="d-inline-flex">tại đây</a>
+									</div>
+									<!--
+									<div class="alert alert-danger" role="alert">
+										Rất tiếc, số điện thoại này chưa được dùng để đăng ký thành viên, vui lòng đăng ký <a href="#register" class="">tại đây</a>
+									</div>
+									-->
+									<form>
+										<div class="form-row">
+											<div class="col-md-8">
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="Số điện thoại đã đăng ký...">
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="form-group">
+													<button type="submit" class="btn btn-success btn-block" onclick="$('#ask_form_main, #ask_form_user_confirmation').toggle(); return false;">XÁC NHẬN</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+								<!-- /Phone confirmation -->
+								
+								<!-- Ask form: -->
+								<div id="ask_form_main" style="display:none">
 									<!--
 									<div class="alert alert-success" role="alert">
 										Cảm ơn bạn đã gửi câu hỏi. Các chuyên gia sẽ trả lời trong thời gian sớm nhất có thể!
@@ -297,27 +327,16 @@
 									-->
 									
 									<form class="">
-										<!--
-										<div class="form-row form-group">
-											<div class="col">
-												<input type="text" class="form-control" placeholder="Họ và tên">
-											</div>
-											<div class="col">
-												<input type="text" class="form-control" placeholder="Số điện thoại">
-											</div>
-											<div class="col">
-												<input type="text" class="form-control" placeholder="Tỉnh/TP">
-											</div>
-										</div>
-										-->
+										<label>Bạn đang đặt câu hỏi bằng số điện thoại <strong>0982997991</strong></label>
 										<div class="form-group">
-											<textarea class="form-control" placeholder="Đặt câu hỏi..." rows="4"></textarea>
+											<textarea class="form-control" placeholder="Nội dung câu hỏi..." rows="4"></textarea>
 										</div>
 										<div class="form-group">
-											<button type="submit" class="btn btn-success btn-block">GỬI CÂU HỎI</button>
+											<button type="submit" class="btn btn-success px-5" onclick="$('#ask_form_main, #ask_form_user_confirmation').toggle(); return false;">GỬI CÂU HỎI</button>
 										</div>
 									</form>
 								</div>
+								<!-- /Ask form -->
 							</div>
 						</div>
 						
