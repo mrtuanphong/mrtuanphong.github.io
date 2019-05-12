@@ -21,12 +21,12 @@
     ============================================ -->
    
     <link rel="shortcut icon" type="image/png" href="assets/ico/favicon-16x16.png"/>
-    
    
     <!-- Libs CSS
     ============================================ -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.4.2/css/bootstrap-slider.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">  
     
     <!-- Theme CSS
@@ -35,10 +35,7 @@
 
      <!-- Google web fonts
     ============================================ -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-         body{font-family:'Roboto', sans-serif}
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
 </head>
 <body class="common-home res layout-2">
     <div id="wrapper" class="wrapper-fluid banners-effect-7">
@@ -64,7 +61,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <!-- Logo -->
-                <div class="col-sm-3 col-md-3 col-lg-4">
+                <div class="col-sm-2 col-md-2 col-lg-2">
                     <a href="index.html">
                         <img src="assets/images/logo.png" srcset="assets/images/logo.png 1x, assets/images/logo@2x.png 2x" class="Header-logo" title="Your Store" alt="Watapy" />
                     </a>
@@ -104,24 +101,73 @@
     <div class="TopMenu">
     <div class="container">
       <ul class="nav NavTabs">
+        <!--
         <li class="nav-item">
-          <a class="nav-link " href="index.html">Trang chủ</a>
+          <a class="nav-link " href="index.html">Trang Chủ</a>
+        </li>
+        -->
+        <li class="nav-item">
+          <a class="nav-link " href="category.html">Sức Khoẻ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="category.html">Sức khoẻ</a>
+          <a class="nav-link" href="category.html">Sức Khoẻ &amp; Làm Đẹp</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="category.html">Sức khoẻ &amp; Làm đẹp</a>
+          <a class="nav-link" href="category.html">Làm Đẹp</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sản phẩm Hệ sinh thái</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="category.html">Category Name</a>
-            <a class="dropdown-item" href="category.html">Category Name</a>
-            <a class="dropdown-item" href="category.html">Category Name</a>            
-            <a class="dropdown-item" href="category.html">Category Name</a>
+        <li class="nav-item megamenu">
+            <a class="nav-link dropdown-toggle active" href="ecosystem.html">Sản Phẩm Hệ Sinh Thái</a>
+            <div class="megamenu-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <ul class="list-unstyled mb-2 megamenu-cat">
+                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                <ul class="list-unstyled mb-2 megamenu-cat">
+                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <ul class="list-unstyled mb-2 megamenu-cat">
+                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <ul class="list-unstyled mb-2 megamenu-cat">
+                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <ul class="list-unstyled mb-2 megamenu-cat">
+                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
             
-          </div>
+        </div>
+        
+    </div>
+</div>
         </li>
       </ul>
     </div>
@@ -141,8 +187,9 @@
         <div class="row">
             <!--Left Part Start -->
             <aside class="col-lg-3 content-aside">
-                <!-- shop info: -->
-<div class="w-shopInfo mt-4">
+                
+<!-- shop info: -->
+<div class="w-shopInfo mb-4">
     <div class="list-group">
         <div class="list-group-item">
             <p class="text-center"><img src="assets/images/demo/shop-logo.jpg" class="img-fluid" alt="{Shop name}"></p>
@@ -159,30 +206,33 @@
                 </div>
             </div>
         </div>
-        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <a href="shop-category.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
             Tất cả sản phẩm
             <span class="badge badge-primary badge-pill">215</span>
         </a>
-        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <a href="shop-category.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
             Chăm sóc da
             <span class="badge badge-primary badge-pill">215</span>
         </a>
-        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center active">
+        <a href="shop-category.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center active">
             Vitamin
             <span class="badge badge-primary badge-pill">215</span>
         </a>
-        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <a href="shop-category.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
             Dụng cụ thể thao
             <span class="badge badge-primary badge-pill">215</span>
         </a>
-        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <a href="shop-category.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
             {tên_danh_mục}
             <span class="badge badge-primary badge-pill">215</span>
         </a>
     </div>
 </div>
 
-<div class="card mt-4 Filter">
+
+
+
+<div class="card mb-4 Filter">
     <div class="card-header"><strong>BỘ LỌC</strong></div>
     <div class="card-body">
         <fieldset>
@@ -212,28 +262,21 @@
             </ul>
         </fieldset>
         <fieldset>
-            <legend>Giá</legend>
-            <div class="range">
-                Khoảng :
-                <span class="min_val">0 triệu (đ)</span> -
-                <span class="max_val">8 triệu (đ)</span>
-                <input type="hidden" name="min" id="min_value" value="0">
-                <input type="hidden" name="max" id="max_value" value="0">
+            <legend>Khoảng giá</legend>
+            <div class="d-flex ">
+                <div><input type="text" class="form-control form-control-sm" name="min" placeholder="₫ TỪ" /></div>
+                <div class="mx-2">_</div>
+                <div><input type="text" class="form-control form-control-sm" name="max" placeholder="₫ ĐẾN" /></div>
             </div>
-            <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
-                <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
-                <span class="ui-slider-handle ui-state-default ui-corner-all" style="left: 0%;"></span>
-                <span class="ui-slider-handle ui-state-default ui-corner-all" style="left: 8%;"></span>
-            <div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 8%;"></div></div>
         </fieldset>
         <div class="mt-3">
             <button type="button" class="btn btn-primary btn-block btn-sm">Áp dụng</button>
-            <button type="reset" class="btn btn-default btn-block  btn-sm">Xoá tất cả</button>
+            <button type="reset" class="btn btn-light btn-block  btn-sm">Xoá tất cả</button>
         </div>
     </div>
 </div>
 
-<div class="my-4 d-none d-lg-block">
+<div class="mb-4 d-none d-lg-block">
     <a title="Banner Image" href="#"> 
         <img src="assets/images/catalog/banners/banner-sidebar.jpg" class="img-fluid" alt="Banner Image"> 
     </a>
@@ -247,7 +290,7 @@
                 <section class="card mt-4">
                     <div class="card-body">
                         <div style="margin: -2rem -1rem 0">
-                            <section class="owl-carousel owl-theme style-2 js-carouselHero mt-3">
+                            <section class="owl-carousel owl-theme style-2 js-carouselHero mb-5">
     <div class="carouselHero-item">
         <a href="product.html"><img src="assets/images/catalog/slideshow/home2/slide-1.jpg" alt="slider1" class="img-responsive"></a>
     </div>
@@ -298,184 +341,145 @@
 
         <!-- page footer: -->
         <!-- Footer Container -->
-    <footer class="footer-container Footer">
-        
-        
-        <section class="footer-middle ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-style">
-                        <div class="infos-footer box-footer">
-                            <div class="module">
-                                <h3 class="modtitle">Về chúng tôi</h3>
-                                <ul>
-                                    <li class="adres">San Luis potosí, centro historico, 78000 san luis potosí, SPL, Mexico</li>
-                                    <li class="phone">(+0214)0 315 215</li>
-                                    
-                                    <li class="time">Open time: 8:00AM - 6:00PM</li>
+<footer class="footer-container Footer">
+    <section class="footer-middle ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-style">
+                    <div class="infos-footer box-footer">
+                        <div class="module">
+                            <h3 class="modtitle">Về chúng tôi</h3>
+                            <ul>
+                                <li class="adres">Tầng 4, Khu C, tòa nhà Duy Tân Plaza, số 232 – 234 đường 3/2 (hoặc 171 Cao Thắng), phường 12, quận 10, Tp. Hồ Chí Minh</li>
+                                <li class="phone">Hotline: 0946665179</li>
+                                <li class="mail">
+                                    Email: <a href="mailto:contact@watapy.com" class="text-white">contact@watapy.com</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-style">
+                    <div class="box-information box-footer">
+                        <div class="module clearfix">
+                            <h3 class="modtitle">Hỗ trợ</h3>
+                            <div class="modcontent">
+                                <ul class="menu">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Warranty And Services</a></li>
+                                    <li><a href="#">Support 24/7 page</a></li>
+                                    <li><a href="#">Product Support</a></li>
                                 </ul>
                             </div>
                         </div>
-
-
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-style">
-                        <div class="box-information box-footer">
-                            <div class="module clearfix">
-                                <h3 class="modtitle">Hỗ trợ</h3>
-                                <div class="modcontent">
-                                    <ul class="menu">
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Warranty And Services</a></li>
-                                        <li><a href="#">Support 24/7 page</a></li>
-                                        <li><a href="#">Product Support</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
 
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-style">
-                        <div class="box-service box-footer">
-                            <div class="module clearfix">
-                                <h3 class="modtitle">Services</h3>
-                                <div class="modcontent">
-                                    <ul class="menu">
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Returns</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">Customer Service</a></li>
-                                        <li><a href="#">Custom Link</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-style">
-                        <div class="box-service box-footer">
-                            <div class="module clearfix">
-                                <h3 class="modtitle">Đăng ký nhận bản tin</h3>
-                                <div class="modcontent">
-                                    <div class="form-group">We’ll never share your email address with a third-party. </div>       
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <form method="post">
-                            <div class="form-group">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Email của bạn...">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-light" type="button">Đăng ký</button>
-                                    </div>
-                                </div>
-
-                            </div>  
-                        </form>
-
-                        <ul class="socials">
-                            <li class="facebook"><a class="_blank" href="https://www.facebook.com/MagenTech" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li class="google_plus"><a class="_blank" href="https://plus.google.com/u/0/+Smartaddons/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-                            </li>                            
-                        </ul>
-                    </div>
                 </div>
-            </div>
-        </section>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-style">
+                    <div class="box-service box-footer">
+                        <div class="module clearfix">
+                            <h3 class="modtitle">Tài khoản</h3>
+                            <div class="modcontent">
+                                <ul class="menu">
+                                    <li><a href="#">Đăng ký</a></li>
+                                    <li><a href="#">Đăng nhập</a></li>
+                                    <li><a href="#">Theo dõi đơn hàng</a></li>
+                                    <li><a href="#">Chính sách giao hàng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="container">
-            <!-- logos: -->
-            
-            
-            <div class="block-policy2">
-                <ul>
-                    <li class="item-1">
-                        <div class="item-inner">
-                            <div class="icon icon1"></div>
-                            <div class="content"> <a href="#">free delivery</a>
-                                <p>From $59.89</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-style">
+                    <div class="box-service box-footer">
+                        <div class="module clearfix">
+                            <h3 class="modtitle">Đăng ký nhận bản tin</h3>
+                            <div class="modcontent">
+                                <div class="form-group">We’ll never share your email address with a third-party. </div>       
                             </div>
                         </div>
-                    </li>
-                    <li class="item-2">
-                        <div class="item-inner">
-                            <div class="icon icon2"></div>
-                            <div class="content"> <a href="#">support 24/7</a>
-                                <p>Online 24 hours</p>
+                    </div>
+                    
+                    <form method="post">
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Email của bạn...">
+                                <div class="input-group-append">
+                                    <button class="btn btn-light" type="button">Đăng ký</button>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="item-3">
-                        <div class="item-inner">
-                            <div class="icon icon3"></div>
-                            <div class="content"> <a href="#">free return</a>
-                                <p>365 a day</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item-4">
-                        <div class="item-inner">
-                            <div class="icon icon4"></div>
-                            <div class="content"> <a href="#">payment method</a>
-                                <p>secure payment</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item-5">
-                        <div class="item-inner">
-                            <div class="icon icon5"></div>
-                            <div class="content"> <a href="#">big saving</a>
-                                <p>weekend sales</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+
+                        </div>  
+                    </form>
+
+                    <ul class="socials">
+                        <li class="facebook"><a class="_blank" href="https://www.facebook.com/MagenTech" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="google_plus"><a class="_blank" href="https://plus.google.com/u/0/+Smartaddons/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        </li>                            
+                    </ul>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- Footer Bottom Container -->
-        <section class="footer-bottom ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 copyright-w">
-                        <div class="copyright">eMarket © 2018 Demo Store. All Rights Reserved. Designed by <a href="http://www.opencartworks.com/" target="_blank">OpenCartWorks.Com</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 payment-w">
-                        <img src="assets/images/catalog/demo/payment/payment.png" alt="imgpayment">
-                    </div>
+    
+
+    <!-- Footer Bottom Container -->
+    <section class="footer-bottom ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 copyright-w">
+                    <div class="copyright">© 2019 Watapy</div>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 payment-w">
+                    <img src="assets/images/catalog/demo/payment/payment.png" alt="imgpayment">
                 </div>
             </div>
-        </section>
-        <!-- /Footer Bottom Container -->
-    </footer>
-    <!-- //end Footer Container -->
+        </div>
+    </section>
+    <!-- /Footer Bottom Container -->
+</footer>
+<!-- //end Footer Container -->
         <!-- /page footer -->
     </div>
 
+    <!-- Modal -->
+<div class="modal fade" id="modalContactSeller" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Thông tin người bán</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center py-4">
+            <h5 class="mb-1">Lê Minh Hà</h5>
+            <div class="mb-3">Shop Tiêu Dùng</div>
+            <div class="lead"><i class="fa fa-phone"></i> <strong>0912345678</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
     <!-- page scripts: -->
-    
-
-<!-- Include Libs & Plugins
-============================================ -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.4.2/bootstrap-slider.min.js"></script>
 
-
-<!-- Theme files
-============================================ -->
-
-<script type="text/javascript" src="assets/js/themejs/application.js"></script>
-<script type="text/javascript" src="assets/js/themejs/homepage.js"></script>
- 
+<script type="text/javascript" src="assets/js/application.js"></script>
+<script type="text/javascript" src="assets/js/homepage.js"></script> 
     <!-- /page scripts -->
 </body>
 </html>
