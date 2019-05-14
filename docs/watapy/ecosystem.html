@@ -4,175 +4,629 @@
     <title>
     Hệ sinh thái
 </title>
-    <!-- Basic page needs
-    ============================================ -->
-    
     <meta charset="utf-8">
-  <meta name="keywords" content="html5 template, best html5 template, best html template, html5 basic template, multipurpose html5 template, multipurpose html template, creative html templates, creative html5 templates" />
+<meta name="keywords" content="html5 template, best html5 template, best html template, html5 basic template, multipurpose html5 template, multipurpose html template, creative html templates, creative html5 templates" />
 <meta name="description" content="eMarket is a powerful Multi-purpose HTML5 Template with clean and user friendly design. It is definite a great starter for any eCommerce web project." />
-    <meta name="author" content="Magentech">
-    <meta name="robots" content="index, follow" />
-   
-    <!-- Mobile specific metas
-    ============================================ -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
-    <!-- Favicon
-    ============================================ -->
-   
-    <link rel="shortcut icon" type="image/png" href="assets/ico/favicon-16x16.png"/>
-   
-    <!-- Libs CSS
-    ============================================ -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.4.2/css/bootstrap-slider.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/main.css">  
-    
-    <!-- Theme CSS
-    ============================================ -->
-    <link href="assets/css/responsive.css" rel="stylesheet">
+<meta name="author" content="Magentech">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" type="image/png" href="assets/ico/favicon-16x16.png"/>
 
-     <!-- Google web fonts
-    ============================================ -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link href="assets/fonts/fontawesome/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.4.2/css/bootstrap-slider.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
 </head>
 <body class="common-home res layout-2">
     <div id="wrapper" class="wrapper-fluid banners-effect-7">
         <!-- page header: -->
         <!-- Header Container  -->
-<header id="header" class="Header">
+<header id="header" class="section-header bg-white">
     <!-- Header Top -->
-    <div class="Header-top">
+    <nav class="navbar-top navbar navbar-expand-lg navbar-light bg-light p-0">
         <div class="container">
-            <div class="Header-topLinks">
-                <a href="#" class="Header-topLinkItem"><i class="fa fa-truck mr-2"></i>Theo dõi đơn hàng</a>
-                <span class="separate">|</span>
-                <a href="#" class="Header-topLinkItem"><i class="fa fa-lock mr-2"></i>Đăng nhập</a>
-                <span class="separate">|</span>
-                <a href="#" class="Header-topLinkItem"><i class="fa fa-user mr-2"></i>Đăng ký</a>
-            </div>
+            <!-- mobile menu icon: -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTop">
+                
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link ">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item separate">
+                        <a href="category.html" class="nav-link ">Sức Khoẻ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Sắc Đẹp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Sức Khoẻ và Sắc Đẹp</a>
+                    </li>
+                    <li class="nav-item separate">
+                        <a href="ecosystem.html" class="nav-link active">Sản Phẩm Hệ Sinh Thái <span class="badge badge-danger position-relative" style="top:-2px">NEW</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="fa fa-truck"></i> Tra cứu đơn hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="fa fa-phone"></i> Hỗ trợ 0946665179</a>
+                    </li>
+                </ul> <!-- navbar-nav.// -->
+            </div> <!-- collapse.// -->
         </div>
-    </div>
+    </nav>
     <!-- //Header Top -->
 
     <!-- Header center -->
-    <div class="Header-middle">
-        <div class="container">
-            <div class="row align-items-center">
-                <!-- Logo -->
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <a href="index.html">
-                        <img src="assets/images/logo.png" srcset="assets/images/logo.png 1x, assets/images/logo@2x.png 2x" class="Header-logo" title="Your Store" alt="Watapy" />
+    <section class="header-main shadow-sm">
+	<div class="container">
+        <div class="row-sm align-items-center">
+            <div class="col-md-4 col-lg-3">
+                <div class="d-flex align-items-center">
+                    <!-- logo: -->
+                    <a class="navbar-brand" href="index.html" title="Trang chủ Watapy">
+                        <img src="assets/images/logo-original.png" srcset="assets/images/logo-original.png 1x, assets/images/logo-original@2x.png 2x" class="Header-logo" alt="Watapy">
                     </a>
+                    <!-- dropdown menu: -->
+                    <div class="menu-wrap dropdown ">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bars mr-2"></i>Danh mục</button>
+                        <div class="dropdown-menu">
+                            <div class="position-relative">
+                                <ul class="menu-category">
+                                    
+
+                                    
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 1</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 1 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 1 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 1 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 1 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 1 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 1 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 2</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 2 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 2 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 2 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 2 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 2 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 2 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 3</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 3 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 3 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 3 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 3 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 3 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 3 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 4</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 4 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 4 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 4 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 4 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 4 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 4 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 5</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 5 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 5 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 5 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 5 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 5 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 5 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 6</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 6 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 6 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 6 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 6 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 6 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 6 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 7</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 7 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 7 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 7 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 7 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 7 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 7 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 8</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 8 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 8 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 8 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 8 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 8 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 8 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 9</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 9 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 9 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 9 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 9 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 9 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 9 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="text-nowrap has-submenu">
+                                        <a class="dropdown-item d-flex align-items-center" href="ecosystem-category.html">
+                                            <span class="mr-auto">Category Item 10</span>
+                                            <i class="fa fa-chevron-right ml-3"></i>
+                                        </a>
+                                        
+                                        <div class="submenu">
+                                            <ul class="list-unstyled w-100">
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 10 - Sub Item 1</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 10 - Sub Item 2</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 10 - Sub Item 3</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 10 - Sub Item 4</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 10 - Sub Item 5</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="dropdown-item" href="ecosystem-category.html">
+                                                        <span class="mr-auto">Cat 10 - Sub Item 6</span>
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-                <!-- //end Logo -->
-                <!-- Search -->
-                <div class="col-sm-7 col-md-7 col-lg-7">
-                    <div class="Header-searchForm">
-                        <form method="GET" action="#">
-                            <div class="input-group">
-                                <input class="form-control" type="text" value="" size="50" autocomplete="off" placeholder="Tìm trong Watapy" name="search">
-                                <div class="input-group-append">
-                                    <button type="submit" class="btn btn-primary btn-block" name="submit_search"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="col-md-8 col-lg-6">
+                <form action="#" class="py-1">
+                    <div class="input-group w-100">
+                        <select class="custom-select" name="category_name">
+                            <option value="0">Tất cả</option>
+                            <option value="1">Watapy</option>
+                            <option value="2">Hệ sinh thái</option>
+                        </select>
+                        <input type="text" class="form-control" style="width:50%;" placeholder="Tên sản phẩm cần tìm...">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-4" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form> <!-- search-wrap .end// -->
+            </div> <!-- col.// -->
+            <div class="col-md-12 col-lg-3">
+                <div class="widgets-wrap float-right row no-gutters py-1">
+                    <div class="col-auto">
+                        <div class="widget-header">
+                            <a href="#">
+                                <div class="icontext">
+                                    <div class="icon-wrap"><i class="text-success fa-2x fa fa-user"></i></div>
+                                    <div class="text-wrap text-dark">Đăng nhập</div>
+                                </div>
+                            </a>
+                        </div>  <!-- widget-header .// -->
+                    </div> <!-- col.// -->
+                    <div class="col-auto">
+                        <a href="#" class="widget-header">
+                            <div class="icontext">
+                                <div class="icon-wrap"><i class="text-success fa-2x  fa fa-shopping-cart"></i></div>
+                                <div class="text-wrap text-dark">
+                                    <span class="small round badge badge-secondary">0</span>
+                                    <div>Giỏ hàng</div>
                                 </div>
                             </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- //end Search -->
-                
-                <div class="col-sm-2 col-md-2 col-lg-1">
-                    <!--cart-->
-                    <a href="#" class="Header-cart">
-                        <i class="fa fa-shopping-bag Header-cartIcon"></i>
-                        <span class="Header-cartNumber">4</span>
-                    </a>
-                    <!--//cart-->
-                </div>
-                
-                
-            </div>
-
-        </div>
-    </div>
-    <!-- //Header center -->
-
-    <div class="TopMenu">
-    <div class="container">
-      <ul class="nav NavTabs">
-        <!--
-        <li class="nav-item">
-          <a class="nav-link " href="index.html">Trang Chủ</a>
-        </li>
-        -->
-        <li class="nav-item">
-          <a class="nav-link " href="category.html">Sức Khoẻ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="category.html">Làm Đẹp</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="category.html">Sức Khoẻ &amp; Làm Đẹp</a>
-        </li>
-        <li class="nav-item megamenu">
-            <a class="nav-link dropdown-toggle active" href="ecosystem.html">Sản Phẩm Hệ Sinh Thái</a>
-            <div class="megamenu-main">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-lg-3">
-                <ul class="list-unstyled mb-2 megamenu-cat">
-                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-                <ul class="list-unstyled mb-2 megamenu-cat">
-                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <ul class="list-unstyled mb-2 megamenu-cat">
-                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <ul class="list-unstyled mb-2 megamenu-cat">
-                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <ul class="list-unstyled mb-2 megamenu-cat">
-                    <li><a class="dropdown-item" href="#">Du lịch khách sạn</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
-            
-        </div>
-        
-    </div>
-</div>
-        </li>
-      </ul>
-    </div>
-</div>
-
+                        </a>
+                    </div> <!-- col.// -->
+                </div> <!-- widgets-wrap.// row.// -->
+            </div> <!-- col.// -->
+        </div> <!-- row.// -->
+	</div> <!-- container.// -->
+</section>
 </header>
 <!-- //Header Container  -->
         <!-- /page header -->
@@ -1511,85 +1965,54 @@
     <section class="footer-middle ">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-style">
+                <div class="col-md-6 col-sm-12 col-style">
                     <div class="infos-footer box-footer">
                         <div class="module">
-                            <h3 class="modtitle">Về chúng tôi</h3>
+                            <h3 class="modtitle">CÔNG TY CỔ PHẦN ĐẦU TƯ PHÚC NGUYỄN</h3>
                             <ul>
-                                <li class="adres">Tầng 4, Khu C, tòa nhà Duy Tân Plaza, số 232 – 234 đường 3/2 (hoặc 171 Cao Thắng), phường 12, quận 10, Tp. Hồ Chí Minh</li>
-                                <li class="phone">Hotline: 0946665179</li>
-                                <li class="mail">
-                                    Email: <a href="mailto:contact@watapy.com" class="text-white">contact@watapy.com</a>
-                                </li>
-                                
+                                <li class="adres">Trụ sở chính: Tầng 3 Toà nhà Duy Tân Plaza, 171 Cao Thắng, P.12, Q.10, TP. HCM  —  Hotline: 0946.665.179 - 02873.000.492</li>
+                                <li class="adres">VPĐD Miền Bắc: Lầu 5 nhà số 83 phố Trung Kính, P.Trung Hoà, Quận Cầu Giấy, Hà Nội  —  Hotline: 0936.385.669</li>
+                                <li class="adres">VPĐD Miền Trung: 126 Lê Duy Đình, P. Chính Gián, Quận Thanh Khê, Đà Nẵng  —  Hotline: 0972.646.126</li>
                             </ul>
                         </div>
                     </div>
-
-
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-6 col-style">
+                <div class="col-md-3 col-sm-6 col-style">
                     <div class="box-information box-footer">
                         <div class="module clearfix">
-                            <h3 class="modtitle">Hỗ trợ</h3>
+                            <h3 class="modtitle">CHÍNH SÁCH & QUY ĐỊNH</h3>
                             <div class="modcontent">
                                 <ul class="menu">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Warranty And Services</a></li>
-                                    <li><a href="#">Support 24/7 page</a></li>
-                                    <li><a href="#">Product Support</a></li>
+                                    <li><a href="/policy">Chính sách &amp; Quy định chung</a></li>
+                                    <li><a href="/policy/payment">Quy định và hình thức thanh toán</a></li>
+                                    <li><a href="/policy/delivery">Chính sách vận chuyển/giao nhận/cài đặt</a></li>
+                                    <li><a href="/policy/warranty">Chính sách bảo hành/bảo trì</a></li>
+                                    <li><a href="/policy/refund">Chính sách đổi/trả hàng và hoàn tiền</a></li>
+                                    <li><a href="/policy/security">Chính sách bảo mật</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-6 col-style">
+                <div class="col-md-3 col-sm-6 col-style">
                     <div class="box-service box-footer">
                         <div class="module clearfix">
-                            <h3 class="modtitle">Tài khoản</h3>
+                            <h3 class="modtitle">DỊCH VỤ</h3>
                             <div class="modcontent">
                                 <ul class="menu">
-                                    <li><a href="#">Đăng ký</a></li>
-                                    <li><a href="#">Đăng nhập</a></li>
-                                    <li><a href="#">Theo dõi đơn hàng</a></li>
-                                    <li><a href="#">Chính sách giao hàng</a></li>
+                                    <li><a href="#">Giới thiệu</a></li>
+                                    <li><a href="#">Liên hệ</a></li>
+                                    <li><a href="#">Hỗ trợ</a></li>
+                                    <li><a href="#">Watapy Affiliate</a></li>
+                                    <li><a href="#">Bán hàng cùng Watapy</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-style">
-                    <div class="box-service box-footer">
-                        <div class="module clearfix">
-                            <h3 class="modtitle">Đăng ký nhận bản tin</h3>
-                            <div class="modcontent">
-                                <div class="form-group">We’ll never share your email address with a third-party. </div>       
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <form method="post">
-                        <div class="form-group">
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Email của bạn...">
-                                <div class="input-group-append">
-                                    <button class="btn btn-light" type="button">Đăng ký</button>
-                                </div>
-                            </div>
-
-                        </div>  
-                    </form>
-
-                    <ul class="socials">
-                        <li class="facebook"><a class="_blank" href="https://www.facebook.com/MagenTech" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="google_plus"><a class="_blank" href="https://plus.google.com/u/0/+Smartaddons/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-                        </li>                            
-                    </ul>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -1637,13 +2060,16 @@
 </div> 
 
     <!-- page scripts: -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- plugins: -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.4.2/bootstrap-slider.min.js"></script>
 
+<!-- site: -->
 <script type="text/javascript" src="assets/js/application.js"></script>
 <script type="text/javascript" src="assets/js/homepage.js"></script> 
     <!-- /page scripts -->
